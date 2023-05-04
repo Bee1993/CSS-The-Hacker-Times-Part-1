@@ -15,3 +15,7 @@ body{
 img{
     width: 100%;
 }
+section{
+    display: inline-block;
+    width: 45%;
+}
