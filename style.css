@@ -16,7 +16,7 @@ img{
     width: 100%;
 }
 main{
-    font-family: arial;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 main>h5{
  color: #dd3232;  
@@ -25,7 +25,7 @@ section{
     display: inline-block;
     width: 45%;
     margin-inline: 10px;
-    font-family: verdana;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 li{
 display: inline-block;
