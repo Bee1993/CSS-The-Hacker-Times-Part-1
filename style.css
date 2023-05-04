@@ -5,21 +5,28 @@ body{
 }
 
 .newspaper-container{
-    background: white;
-    margin: 100px auto;
+    background:white;
+    margin: 100px 0;
     width: 75vw;
     border-radius: 20px;
     padding: 25px;
     box-shadow: #ddd;
 }
-
 img{
     width: 100%;
 }
-main{
+main>h5{
  color: #dd3232;  
 }
 section{
     display: inline-block;
     width: 45%;
+    margin-inline: 10px;
+}
+li{
+display: inline-block;
+margin-left: 10px;
+border-top: 15px;
+border-bottom: 15px;
+color: grey;
 }
