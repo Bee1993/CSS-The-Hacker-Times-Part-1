@@ -7,13 +7,16 @@ body{
 .newspaper-container{
     background:white;
     margin: 100px 0;
-    width: 75vw;
+    width: 700px;
     border-radius: 20px;
     padding: 25px;
     box-shadow: #ddd;
 }
 img{
     width: 100%;
+}
+main{
+    font-family: sans-serif;
 }
 main>h5{
  color: #dd3232;  
@@ -22,11 +25,15 @@ section{
     display: inline-block;
     width: 45%;
     margin-inline: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 li{
 display: inline-block;
 margin-left: 10px;
-border-top: 15px;
-border-bottom: 15px;
-color: grey;
+color: #777;
+padding: 2px;
+font-family: Arial, Helvetica, sans-serif;
+}
+header>h1{
+    text-align: center;
 }
