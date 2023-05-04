@@ -10,10 +10,14 @@ body{
     width: 75vw;
     border-radius: 20px;
     padding: 25px;
+    box-shadow: #ddd;
 }
 
 img{
     width: 100%;
+}
+main{
+ color: #dd3232;  
 }
 section{
     display: inline-block;
