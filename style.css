@@ -3,20 +3,44 @@
 body{
     background: #eee;
 }
+/* Nav starts here*/
+nav{
+    border-top: .5px solid #777;
+    border-bottom: .5px solid #777;
+}
+nav ul{
+display: inline-block;
+list-style-type: none;
+white-space: nowrap;
+font-family: sans-serif;
+padding: 0;
+}
+nav li{
+    display: inline-block;
+}
 
+nav a{
+text-decoration: none;
+color: #777;
+}
+nav li a:hover{
+ color: #dd3232;
+ background-color: aqua;
+ box-shadow: 2px 2px 2px grey;
+}
 .newspaper-container{
     background:white;
-    margin: 100px 0;
+    margin: 100px auto;
     width: 700px;
     border-radius: 20px;
     padding: 25px;
-    box-shadow: #ddd;
+    box-shadow: 1px 2px 2px #ddd;
 }
 img{
     width: 100%;
 }
 main{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
 main>h5{
  color: #dd3232;  
@@ -25,15 +49,9 @@ section{
     display: inline-block;
     width: 45%;
     margin-inline: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: sans-serif;
 }
-li{
-display: inline-block;
-margin-left: 10px;
-color: #777;
-padding: 2px;
-font-family: 'Courier New', Courier, monospace;
-}
+
 header>h1{
     text-align: center;
 }
