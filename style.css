@@ -3,6 +3,10 @@
 body{
     background: #eee;
 }
+header>h1{
+    text-align: center;
+}
+
 /* Nav starts here*/
 nav{
     border-top: .5px solid #777;
@@ -50,8 +54,4 @@ section{
     width: 45%;
     margin-inline: 10px;
     font-family: sans-serif;
-}
-
-header>h1{
-    text-align: center;
 }
