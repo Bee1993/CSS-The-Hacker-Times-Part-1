@@ -3,8 +3,9 @@
 body{
     background: #eee;
 }
-header>h1{
+h1{
     text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 /* Nav starts here*/
@@ -40,11 +41,18 @@ nav li a:hover{
     padding: 25px;
     box-shadow: 1px 2px 2px #ddd;
 }
+.date{
+    text-align: left;
+    color: #777;
+}
 img{
     width: 100%;
 }
 main{
     font-family: sans-serif;
+}
+main>h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 main>h5{
  color: #dd3232;  
@@ -54,4 +62,9 @@ section{
     width: 45%;
     margin-inline: 10px;
     font-family: sans-serif;
+}
+p{
+    padding: 10px;
+    text-align: justify;
+    font-family: 'Source serif pro';
 }
