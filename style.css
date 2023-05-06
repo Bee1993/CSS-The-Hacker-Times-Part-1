@@ -12,6 +12,8 @@ h1{
 nav{
     border-top: .5px solid #777;
     border-bottom: .5px solid #777;
+    position: sticky;
+    
 }
 nav ul{
 display: inline-block;
@@ -67,4 +69,15 @@ p{
     padding: 10px;
     text-align: justify;
     font-family: 'Source serif pro';
+}
+.more-articles{
+   /*text-align: center;*/
+   display: grid;
+   width: 100px;
+   grid-template-columns: repeat(3, .5fr);
+}
+.grid-container{
+    display: inline-grid;
+    grid-template-columns:repeat(3, .5fr);
+    column-gap: 10px;
 }
