@@ -74,11 +74,11 @@ p{
 section{
     /*display: inline-block;*/
     /*width: 45%;*/
-    /*margin-inline: 10px;*/
+    margin-inline: 10px;
 }
 .more-articles{
     /*text-align: center;*/
     display: grid;
     width: 100%;
-    grid-template-columns: 33% 33% 33%;
+    grid-template-columns: 1fr 1fr 1fr;
 }
