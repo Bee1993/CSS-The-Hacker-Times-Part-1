@@ -13,6 +13,8 @@ nav{
     border-top: .5px solid #777;
     border-bottom: .5px solid #777;
     position: sticky;
+  top: 1em;
+  left: 1.5em;
     
 }
 nav ul{
@@ -35,6 +37,9 @@ nav li a:hover{
  background-color: aqua;
  box-shadow: 2px 2px 2px grey;
 }
+
+/* Nave ends here */
+
 .newspaper-container{
     background:white;
     margin: 100px auto;
