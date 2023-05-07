@@ -86,3 +86,8 @@ section{
     grid-column-start: 1;
     grid-column-end: 3;
 }
+.breaking-news{
+    background: red;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}  
